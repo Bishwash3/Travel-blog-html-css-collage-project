@@ -1,0 +1,222 @@
+body{
+    /* min-height: 100vh;
+    background-image: url(tommy-anderson-HJqUUoA_aWY-unsplash.jpg);
+    background-size: cover;
+    background-position: center; */
+    background-color: rgb(160, 157, 157);
+} 
+.first-image{
+  min-height: 1000px;
+  background-image: url(/Assets/tommy-anderson-HJqUUoA_aWY-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn{
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+.bg_btn{
+    width: 200px;
+    height: 40px;
+    background-color: #e2480e;
+    border: 2px solid #e2480e;
+    color: #f4f4f4;
+    border: radius 20px;
+    transition: 0.68s ease-out;
+    font-size: 30px;
+    margin-left: 35%;
+}
+.bg_btn:hover{
+    background-color: transparent;
+    border: 2px solid #e2480e;
+    color:#e2480e;
+}
+
+.border_btn{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #e2480e;
+    color:#e2480e;
+    border: radius 20px;
+    transition: 0.68s ease-out;
+    font-size: 30px;
+}
+.border_btn:hover{
+    background-color: #e2480e;
+    border: 2px solid #e2480e;
+    color: #f4f4f4;
+}
+.btn_group{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    animation: sliderighttoleft 4s ease-out 1;
+}
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    display: flex;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#e2480e;
+    color: white;
+  }
+  .nav-text{
+    margin-left: 20px;
+    
+  }
+  .main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   .logo{
+    font-weight: bold;
+    color: #e2480e;
+    font-size: 25px;
+    font-style: italic;
+    margin-right: 30%;
+    align-items: center;
+  } 
+  .logo a{
+    font-size: 35px;
+  }
+  /* .logo-img{
+    width: 60px;
+    height: 35px;
+    border-radius: 15px;
+  } */
+  .hero_section{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+  
+  }
+  .text_section{
+    animation: infinite;
+    font-size: 80px;
+    color:#f2f2f2;
+    margin-left:auto;
+    margin-right: auto; 
+    animation: slidelefttoright 4s ease-out 1;   
+  }
+ .text_section span{
+  color: #e2480e;
+  margin-left: 25%;
+  animation: slidelefttoright 4s ease-out 1; 
+ }
+@keyframes slidelefttoright{
+  from{
+    transform: translatey(-100%);
+  }
+  to{
+    transform: translatey(0);
+  }
+}
+@keyframes sliderighttoleft{
+  from{
+    transform: translatex(-100%);
+  }
+  to{
+    transform: translatex(0);
+  }
+}
+
+/* About section styling */
+.about-section{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 100px 100px;
+    display: flex;
+    align-items: center;
+    background-color: darkgray;
+}
+.image-section{
+  width: 54%;
+  height: auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.about-image{
+   width: 100%;
+   height: 900px;
+   object-fit: cover;
+   object-position: center;
+   transition: transform 0.3s ease-in-out;
+}
+.about-image:hover{
+  transform: scale(1.05);
+}
+.content-section{
+  position: absolute;
+  width: 35%;
+  height: auto;
+  border-radius: 4px;
+  right: 100px;
+  background:gray;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  flex-direction: column;
+  row-gap: 1.1rem;
+  padding: 30px 30px 30px 160px;
+  box-shadow: 5px 5px 10px rgba(68,27,5,0.12);
+  border: 1px solid rgba(143,143,143);
+  margin-left: 10%;
+  transition: transform 0.3s ease-in-out;
+}
+.content-section:hover{
+  transform: scale(1.05);
+}
+.about-title{
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color:white;
+}
+.about-desc{
+  font-size: 0.93rem;
+  line-height: 1.2rem;
+  color: white;
+  /* margin-bottom: 1.3rem; */
+  
+}
+.about-btn{
+  border-radius: 4px !important;
+  margin-bottom: 1.3rem;
+  transition: transform 0.3s ease-in-out;
+}
+.about-btn:hover{
+  background-color: #ff5722;
+  color: #ffffff;
+  transform: scale(1.05);
+}

@@ -1,0 +1,155 @@
+/* Blog section */
+
+.blog-section {
+    text-align: center;
+    padding: 50px 0;
+    width: auto;
+  }
+  
+  /* Section Heading */
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .section-title::after {
+    content: "";
+    width: 90px;
+    height: 3px;
+    background-color: orange;
+    display: block;
+    margin: 5px auto;
+  }
+  
+  /* Section Subtitle */
+  .section-subtitle {
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  /* Blog Cards Container */
+  .blog-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+     /* Ensures it doesn't stretch too much */
+    margin: 0 auto; /* Centers the container */
+  }
+  
+  /* Blog Card */
+  .blog-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Blog Image */
+  .blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Blog Content */
+  .blog-content {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  /* Date */
+  .blog-date {
+    color: orange;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Title */
+  .blog-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Description */
+  .blog-description {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Read More */
+  .read-more {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  /* Join us */
+  
+  .join-us {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #2e2e2e;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .join-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .join-btn:hover {
+    background-color: #e65c00;
+  }

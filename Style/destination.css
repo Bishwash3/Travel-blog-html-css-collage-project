@@ -1,0 +1,225 @@
+
+/* Top Destinations Section */
+.top-destinations {
+    background-color: #1a6d7c;
+    padding: 60px 20px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .destinations h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .destinations p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  section{
+    padding:2rem 9%;
+  }
+  
+  /* Packages Grid */
+  .destinations {
+    padding: 50px 5%;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 29px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  /* Orange underline under heading */
+  h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    margin: 5px auto;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Container for Destination Cards */
+  .destinations-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Destination Card */
+  .destination-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 450px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect */
+  .destination-card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Jungle Safari Tag */
+  .tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: orange;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* Destination Image */
+  .destination-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Destination Info */
+  /* Section Styling */
+  .destinations {
+    padding: 50px 5%;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 26px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  /* Orange underline under heading */
+  h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    margin: 5px auto;
+  }
+  
+  p {
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Container for Destination Cards */
+  .destinations-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Destination Card */
+  .destination-card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .destination-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Jungle Safari Tag */
+  .tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: orange;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2;
+  }
+  
+  /* Destination Image */
+  .destination-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Dark Overlay for Text Contrast */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    z-index: 1;
+  }
+  
+  /* Destination Info */
+  .destination-info {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    text-align: left;
+    z-index: 2;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  /* Tags */
+  .tags {
+    margin-top: 10px;
+  }
+  
+  .tags span {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: background 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Hover Effect */
+  .tags span:hover {
+    background: #ff5722;
+    cursor: pointer;
+  }
+  
